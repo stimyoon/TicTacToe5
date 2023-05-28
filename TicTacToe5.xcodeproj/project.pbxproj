@@ -14,6 +14,13 @@
 		91B4F4202A233466008DD767 /* TicTacToe5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F41F2A233466008DD767 /* TicTacToe5Tests.swift */; };
 		91B4F42A2A233466008DD767 /* TicTacToe5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F4292A233466008DD767 /* TicTacToe5UITests.swift */; };
 		91B4F42C2A233466008DD767 /* TicTacToe5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F42B2A233466008DD767 /* TicTacToe5UITestsLaunchTests.swift */; };
+		91B4F43A2A2334AA008DD767 /* UserDefaultFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F4392A2334AA008DD767 /* UserDefaultFunctions.swift */; };
+		91B4F43D2A2334D1008DD767 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F43C2A2334D1008DD767 /* CoreDataService.swift */; };
+		91B4F43F2A2334EF008DD767 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F43E2A2334EF008DD767 /* Persistence.swift */; };
+		91B4F4412A233511008DD767 /* DataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F4402A233511008DD767 /* DataServiceProtocol.swift */; };
+		91B4F4442A23352F008DD767 /* TicTacToe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F4422A23352F008DD767 /* TicTacToe.xcdatamodeld */; };
+		91B4F4472A2335C0008DD767 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F4462A2335C0008DD767 /* TileView.swift */; };
+		91B4F4492A2335E6008DD767 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F4482A2335E6008DD767 /* BoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		91B4F4252A233466008DD767 /* TicTacToe5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToe5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B4F4292A233466008DD767 /* TicTacToe5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe5UITests.swift; sourceTree = "<group>"; };
 		91B4F42B2A233466008DD767 /* TicTacToe5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91B4F4392A2334AA008DD767 /* UserDefaultFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultFunctions.swift; sourceTree = "<group>"; };
+		91B4F43C2A2334D1008DD767 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		91B4F43E2A2334EF008DD767 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		91B4F4402A233511008DD767 /* DataServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceProtocol.swift; sourceTree = "<group>"; };
+		91B4F4432A23352F008DD767 /* TicTacToe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicTacToe.xcdatamodel; sourceTree = "<group>"; };
+		91B4F4462A2335C0008DD767 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		91B4F4482A2335E6008DD767 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,9 @@
 		91B4F40D2A233464008DD767 /* TicTacToe5 */ = {
 			isa = PBXGroup;
 			children = (
+				91B4F4452A2335AC008DD767 /* Views */,
+				91B4F43B2A2334B8008DD767 /* CoreData */,
+				91B4F4382A233493008DD767 /* UserDefaults */,
 				91B4F40E2A233464008DD767 /* TicTacToe5App.swift */,
 				91B4F4102A233464008DD767 /* ContentView.swift */,
 				91B4F4122A233466008DD767 /* Assets.xcassets */,
@@ -125,6 +142,34 @@
 				91B4F42B2A233466008DD767 /* TicTacToe5UITestsLaunchTests.swift */,
 			);
 			path = TicTacToe5UITests;
+			sourceTree = "<group>";
+		};
+		91B4F4382A233493008DD767 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				91B4F4392A2334AA008DD767 /* UserDefaultFunctions.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		91B4F43B2A2334B8008DD767 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				91B4F43C2A2334D1008DD767 /* CoreDataService.swift */,
+				91B4F43E2A2334EF008DD767 /* Persistence.swift */,
+				91B4F4402A233511008DD767 /* DataServiceProtocol.swift */,
+				91B4F4422A23352F008DD767 /* TicTacToe.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		91B4F4452A2335AC008DD767 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91B4F4462A2335C0008DD767 /* TileView.swift */,
+				91B4F4482A2335E6008DD767 /* BoardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B4F43D2A2334D1008DD767 /* CoreDataService.swift in Sources */,
+				91B4F43A2A2334AA008DD767 /* UserDefaultFunctions.swift in Sources */,
+				91B4F4472A2335C0008DD767 /* TileView.swift in Sources */,
+				91B4F4442A23352F008DD767 /* TicTacToe.xcdatamodeld in Sources */,
 				91B4F4112A233464008DD767 /* ContentView.swift in Sources */,
+				91B4F4412A233511008DD767 /* DataServiceProtocol.swift in Sources */,
+				91B4F4492A2335E6008DD767 /* BoardView.swift in Sources */,
 				91B4F40F2A233464008DD767 /* TicTacToe5App.swift in Sources */,
+				91B4F43F2A2334EF008DD767 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +635,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91B4F4422A23352F008DD767 /* TicTacToe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91B4F4432A23352F008DD767 /* TicTacToe.xcdatamodel */,
+			);
+			currentVersion = 91B4F4432A23352F008DD767 /* TicTacToe.xcdatamodel */;
+			path = TicTacToe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 91B4F4032A233464008DD767 /* Project object */;
 }

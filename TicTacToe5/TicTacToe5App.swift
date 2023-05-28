@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct TicTacToe5App: App {
+    let persistenceController = PersistenceController.shared
+//    @StateObject var vm = BoardViewVM()
+    @StateObject var vm = BoardViewCoreDataVM()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BoardView(vm: vm)
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
