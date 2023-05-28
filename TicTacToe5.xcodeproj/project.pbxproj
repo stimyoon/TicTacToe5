@@ -21,6 +21,7 @@
 		91B4F4442A23352F008DD767 /* TicTacToe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F4422A23352F008DD767 /* TicTacToe.xcdatamodeld */; };
 		91B4F4472A2335C0008DD767 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F4462A2335C0008DD767 /* TileView.swift */; };
 		91B4F4492A2335E6008DD767 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F4482A2335E6008DD767 /* BoardView.swift */; };
+		91B4F44B2A2338BF008DD767 /* BoardViewCoreDataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4F44A2A2338BF008DD767 /* BoardViewCoreDataVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		91B4F4432A23352F008DD767 /* TicTacToe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicTacToe.xcdatamodel; sourceTree = "<group>"; };
 		91B4F4462A2335C0008DD767 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		91B4F4482A2335E6008DD767 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		91B4F44A2A2338BF008DD767 /* BoardViewCoreDataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewCoreDataVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 			children = (
 				91B4F4462A2335C0008DD767 /* TileView.swift */,
 				91B4F4482A2335E6008DD767 /* BoardView.swift */,
+				91B4F44A2A2338BF008DD767 /* BoardViewCoreDataVM.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				91B4F43D2A2334D1008DD767 /* CoreDataService.swift in Sources */,
 				91B4F43A2A2334AA008DD767 /* UserDefaultFunctions.swift in Sources */,
 				91B4F4472A2335C0008DD767 /* TileView.swift in Sources */,
+				91B4F44B2A2338BF008DD767 /* BoardViewCoreDataVM.swift in Sources */,
 				91B4F4442A23352F008DD767 /* TicTacToe.xcdatamodeld in Sources */,
 				91B4F4112A233464008DD767 /* ContentView.swift in Sources */,
 				91B4F4412A233511008DD767 /* DataServiceProtocol.swift in Sources */,
